@@ -4,15 +4,15 @@
  Based on the excellent Feather board by Limor Fried and quite unlikely to work at the moment.  This is just a starting point to see where this could go.  
  
 # Goals
- Board should run TinyUSB (probably through Arduino when that works) to host USB peripherals.
- Logic on this board would read the USB and then send messages to the main feather via UART (by default) or I2C or SPI with appropriate solder jumpers set
- Voltage on the USB Host port should be 5V even when the Feather is being powered by a battery, so an onboard boost converter is needed.
+ * Board should run TinyUSB (probably through Arduino when that works) to host USB peripherals.
+ * Logic on this board would read the USB and then send messages to the main feather via UART (by default) or I2C or SPI with appropriate solder jumpers set
+ * Voltage on the USB Host port should be 5V even when the Feather is being powered by a battery, so an onboard boost converter is needed.
  
 # Current Challenges
-  Layout is ineffecient (and there are probably conflicts, etc.
-  Room in the center could be used to expose additional GPIO or Analog pins (which would be handy)
-  It would be nice to have second rows of headers to allow connections from GPIO on this wing to the main feather.
-  The Boost converter I found (PCA9411) has a BGA package which would be hard to solder (and I know nothing about it)
+  * Layout is ineffecient (and there are probably conflicts, etc.
+  * Room in the center could be used to expose additional GPIO or Analog pins (which would be handy)
+  * It would be nice to have second rows of headers to allow connections from GPIO on this wing to the main feather.
+  * The Boost converter I found (PCA9411) has a BGA package which would be hard to solder (and I know nothing about it)
  
  I welcome all input (including thoughts about killing this idea)!
  Bill
