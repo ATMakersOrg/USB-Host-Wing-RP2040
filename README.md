@@ -13,7 +13,7 @@
   * Room in the center could be used to expose additional GPIO or Analog pins (which would be handy)
   * It would be nice to have second rows of headers to allow connections from GPIO on this wing to the main feather.
   * Power on the USB-C connector is probably wrong... I need to think through how to handle programming vs hosting w/it.
-  * The Boost converter I found (PCA9411) has a BGA package which would be hard to solder (and I know nothing about it)
+  * The Boost converter I found (PCA9411) has a BGA package which would be hard to solder (and I know nothing about it) - looking to replace with MCP1642B-50 which is easier to solder & seems like a better fit.
  
  I welcome all input (including thoughts about killing this idea)!
  Bill
