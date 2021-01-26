@@ -14,6 +14,7 @@
   * It would be nice to have second rows of headers to allow connections from GPIO on this wing to the main feather.
   * Power on the USB-C connector is probably wrong... I need to think through how to handle programming vs hosting w/it.
   * The Boost converter I found (PCA9411) has a BGA package which would be hard to solder (and I know nothing about it) - looking to replace with MCP1642B-50 which is easier to solder & seems like a better fit.
+  * The MISO and MOSI lines should not be swapped ( need to redo them)
  
  I welcome all input (including thoughts about killing this idea)!
  Bill
