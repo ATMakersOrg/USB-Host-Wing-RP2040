@@ -12433,7 +12433,6 @@ type 0309, grid 2.5 mm</description>
 <part name="U$6" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$24" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$41" library="microbuilder" deviceset="GND" device=""/>
-<part name="U$44" library="microbuilder" deviceset="VBUS" device=""/>
 <part name="IC1" library="adafruit_micro" deviceset="RP2040" device="_QFN56"/>
 <part name="R1" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="10K"/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -12671,9 +12670,6 @@ type 0309, grid 2.5 mm</description>
 </instance>
 <instance part="U$41" gate="G$1" x="208.28" y="86.36" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="209.804" y="83.82" size="1.27" layer="96" rot="MR0"/>
-</instance>
-<instance part="U$44" gate="G$1" x="200.66" y="111.76" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="202.184" y="112.776" size="1.27" layer="96" rot="MR0"/>
 </instance>
 <instance part="IC1" gate="G$1" x="66.04" y="53.34" smashed="yes">
 <attribute name="NAME" x="60.96" y="12.7" size="1.778" layer="95"/>
@@ -13256,12 +13252,6 @@ type 0309, grid 2.5 mm</description>
 <junction x="10.16" y="152.4"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 </segment>
-<segment>
-<wire x1="200.66" y1="109.22" x2="226.06" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="X6" gate="G$1" pin="VBUS"/>
-<label x="223.52" y="109.22" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U$44" gate="G$1" pin="VBUS"/>
-</segment>
 </net>
 <net name="VBAT" class="1">
 <segment>
@@ -13652,6 +13642,11 @@ type 0309, grid 2.5 mm</description>
 <pinref part="J1" gate="G$1" pin="VBUS"/>
 <wire x1="189.23" y1="132.842" x2="173.99" y2="132.842" width="0.1524" layer="91"/>
 <label x="176.53" y="132.842" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X6" gate="G$1" pin="VBUS"/>
+<wire x1="226.06" y1="109.22" x2="213.36" y2="109.22" width="0.1524" layer="91"/>
+<label x="213.36" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
