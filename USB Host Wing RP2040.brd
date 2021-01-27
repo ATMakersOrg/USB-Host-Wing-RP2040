@@ -3,7 +3,7 @@
 <eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -3293,11 +3293,7 @@ einem neuen Namen ab.</description>
 <contactref element="D4" pad="C"/>
 <contactref element="Q3" pad="2"/>
 <contactref element="C1" pad="1"/>
-<contactref element="U2" pad="1"/>
-<contactref element="R3" pad="2"/>
-<wire x1="18.8976" y1="10.9465" x2="18.8586" y2="10.9855" width="0.3048" layer="1"/>
 <wire x1="18.8586" y1="10.9855" x2="15.56" y2="10.9855" width="0.3048" layer="1"/>
-<wire x1="15.56" y1="9.6854" x2="15.56" y2="10.9855" width="0.3048" layer="1"/>
 <wire x1="13.9465" y1="10.597" x2="13.8355" y2="10.597" width="0.3048" layer="1"/>
 <wire x1="13.8355" y1="10.597" x2="12.3165" y2="9.078" width="0.3048" layer="1"/>
 <wire x1="12.3165" y1="8.779" x2="12.3165" y2="9.078" width="0.3048" layer="1"/>
@@ -3318,8 +3314,8 @@ einem neuen Namen ab.</description>
 <wire x1="14.82725" y1="13.60401875" x2="14.82725" y2="16.26325" width="0.3048" layer="1"/>
 <wire x1="21.4405" y1="12.9471" x2="21.4405" y2="14.811" width="0.3048" layer="1"/>
 <wire x1="21.4405" y1="14.811" x2="21.6155" y2="14.986" width="0.3048" layer="1"/>
-<wire x1="18.8976" y1="10.9465" x2="18.9221" y2="10.922" width="0.3048" layer="1"/>
 <wire x1="18.9221" y1="10.922" x2="21.4405" y2="10.922" width="0.3048" layer="1"/>
+<wire x1="18.8586" y1="10.9855" x2="18.9221" y2="10.922" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="QSPI_DATA[0]">
 <contactref element="U1" pad="5"/>
@@ -3614,8 +3610,12 @@ einem neuen Namen ab.</description>
 <wire x1="22.4155" y1="11.7475" x2="19.1135" y2="15.0495" width="0.3048" layer="16"/>
 <contactref element="X6" pad="A4B9"/>
 <contactref element="X6" pad="B4A9"/>
-<wire x1="6.1485" y1="13.83" x2="19.1135" y2="15.0495" width="0" layer="19" extent="1-1"/>
-<wire x1="6.1485" y1="9.03" x2="6.1485" y2="13.83" width="0" layer="19" extent="1-1"/>
+<contactref element="U2" pad="1"/>
+<contactref element="R3" pad="2"/>
+<wire x1="15.56" y1="9.6854" x2="18.8976" y2="10.9465" width="0" layer="19" extent="1-1"/>
+<wire x1="19.1135" y1="15.0495" x2="18.8976" y2="10.9465" width="0" layer="19" extent="1-1"/>
+<wire x1="6.1485" y1="9.03" x2="15.56" y2="9.6854" width="0" layer="19" extent="1-1"/>
+<wire x1="6.1485" y1="13.83" x2="6.1485" y2="9.03" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="JP7" pad="2"/>
