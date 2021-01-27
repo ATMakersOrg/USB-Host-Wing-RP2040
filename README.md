@@ -23,3 +23,5 @@
 ![Top](https://github.com/ATMakersOrg/USB-Host-Wing-RP2040/blob/main/media/FrontPCB.png?raw=true)
 ![Bottom](https://github.com/ATMakersOrg/USB-Host-Wing-RP2040/blob/main/media/BackPCB.png?raw=true)
 ![Schematic](https://github.com/ATMakersOrg/USB-Host-Wing-RP2040/blob/main/media/Schematic.png?raw=true)
+
+NOTE: Images are likely out of date - check out the Eagle Files
